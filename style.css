@@ -79,15 +79,13 @@
     background: rgba(252, 143, 73, 0.1);
 }
 .about-me{
-    background-image: url("Images/About-me.png");
+    background-image: url("Images/About_Mee.png");
     background-repeat: no-repeat;
     background-position: center;  
     background-size: cover  ;
-    height: 600px;
+    height:600px;
     width: 100%;
-    width: 1440px;
-    background-size: cover;
-    z-index: 1;
-    position: relative;
+   
+   
 
 }
