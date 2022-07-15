@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+#banner{
+    background: #E5E5E5;
+}
 .banner-container{
     display: flex;
     justify-content: center;
@@ -77,15 +80,174 @@
 
 #about-me{
     background: rgba(252, 143, 73, 0.1);
+  
 }
 .about-me{
     background-image: url("Images/About_Mee.png");
     background-repeat: no-repeat;
     background-position: center;  
     background-size: cover  ;
-    height:600px;
+    height:550px;
+    width: 100%;
+    display: flex;
+}
+
+.about-me-img{
+    flex-basis: 50%;
+    padding: 10px;
+    position: relative;
+}
+#about-me-img{
+    width:300px;
+    height:450px;
+    position: absolute;
+    left:150px;
+    top: 100px;
+}
+.about-me-text{
+    flex-basis: 50%;
+   
+    padding:0px 48px;
+    
+}
+#about-me-text{
+    width: 444px;
+    padding: 10px;
+    margin-top: 140px;
+   
+}
+#about-me-text h3{
+    margin-bottom: 25px;
+    font-weight: 700px;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+  
+}
+#about-me-text p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size:18px;
+    line-height: 32px;
+    color: #575757;
+}
+.contact-me{
+    width: 192px;
+    height: 68px;
+    background: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+    box-shadow: 0px 2px 30px rgba(252, 143, 73, 0.5);
+    border-radius: 100px;
+    color: white;
+    border: none;
+    margin-top: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+/* MY-RECIPIES-START-HERE */
+#My-Recipies{
+    background: #E5E5E5;
+}
+.My-Recipies-top-text{
+    width:706px;
+    margin: 0 auto;
+}
+.My-Recipies-top-text h3{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size:40px;
+    line-height: 32px;
+    color: #575757;
+    padding:25px 0px 15px 0px;
+}
+.My-Recipies-top-text p{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size:18px;
+    line-height:26px;
+    color: #575757;
+}
+.My-Recipies-card{
+    
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.card-common{
+   
+    filter: drop-shadow(5px 5px 10px #00000026);
+    width: 350px;
+    border-radius: 30px 30px 0 0;
+    margin: 0px 15px;
+    padding: 15px;
+    background-color: white;
+}
+.My-Recipies-card h4{
+    margin: 15px 0px;
+    font-weight: 800;
+    font-size:28px;
+    font-family: 'Montserrat', sans-serif;
+}
+.My-Recipies-card p{
+   
+    font-weight: 400;
+    font-size:16px;   
+    line-height:28px;
+}
+
+#My-Recipies-card-one-img{
     width: 100%;
    
-   
+}
+#card-two{
+    /* margin-bottom:50px; */
+    padding-bottom: 30px;
+}
+/* .img-berder{
+    border-radius: 5%;
+} */
 
+#followers{
+    background-color: #E5E5E5;
+   
+    
+    padding: 10px 0px;
+}
+.followrs{
+    background-color: white;
+    /* filter: drop-shadow(5px 5px 10px #ffffff); */
+    filter: drop-shadow(5px 5px 10px #00000026);
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+    padding: 35px 0px;
+}
+.followrs>div{
+    width: 200px;
+    margin: 0px 25px;
+    height: 150px;
+    border: 1px solid #E5E5E5;;
+}
+.followrs h2{
+   font-size: 48px;
+   font-weight: 700;
+   font-family: 'Montserrat', sans-serif;
+    
+}
+.followrs p{
+    font-size: 16px;
+   font-weight: 400;
+   font-family: 'Montserrat', sans-serif;
+
+}
+.youtube,.instagram,.dribble{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
